@@ -41,14 +41,3 @@ History of detections
 Separate settings page 
 Lightweight & browser-based
 
-Installation / Usage
-
-Clone the repository
-
-git clone https://github.com//_Hackceler8.git
-
-Open index.html in your browser.
-
-Allow camera permissions (for webcam detection).
-
-Start detecting objects 🚀.
