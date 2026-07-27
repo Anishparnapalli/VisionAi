@@ -1,6 +1,9 @@
 <div align="center">
 
-# 👁️ VisionAI
+<!-- 🖼️ LOGO: VisionAI project logo/banner, shown at the top of the title section. Place at images/VisionAI_banner.jpg -->
+<img src="images/VisionAI_banner.jpg" alt="VisionAI Logo" width="180">
+
+# VisionAI
 ### Real-Time Object Detection — Web & Android
 
 **Lightweight, On-Device AI Object Detection powered by TensorFlow.js**
@@ -23,11 +26,6 @@ Built with COCO-SSD · MobileNet · TensorFlow.js · Android WebView
 The project started as a **web application** (HTML, CSS, JavaScript) and was later converted into a **fully functional Android app** using **Android Studio + WebView integration**, preserving every web feature while gaining native camera, storage, and internet permissions.
 
 This project was developed for the course *21CSO353T – Mobile Application Development*, Semester VI (2025–26), Department of Computational Intelligence, SRM Institute of Science and Technology.
-
-<!-- 🖼️ IMAGE: Main hero shot / app icon / demo GIF of VisionAI in action. Place at images/VisionAI_banner.jpg -->
-<p align="center">
-  <img src="images/VisionAI_banner.jpg" alt="VisionAI Real-Time Object Detection" width="650">
-</p>
 
 > Aligned with **SDG 4** (Quality Education), **SDG 9** (Industry, Innovation and Infrastructure), and **SDG 10** (Reduced Inequalities) — VisionAI makes AI-powered object detection accessible on everyday devices, without specialized hardware.
 
@@ -110,14 +108,11 @@ VisionAI follows a **layered architecture**: native Android input (camera/galler
 ```
 VisionAI/
 ├── index.html                   # Single-file web app (HTML + CSS + JS + TensorFlow.js)
-├── images/                      # All diagrams & screenshots used in this README
-│   ├── VisionAI_banner.jpg
-│   ├── block_diagram.jpg
+├── images/                      # Logo + diagrams used in this README
+│   ├── VisionAI_banner.jpg      # project logo, shown at the top
+│   ├── block_diagram.jpg        # system architecture diagram
 │   ├── upload_image_interface.jpg
-│   ├── webcam_detection_interface.jpg
-│   ├── detection_results_interface.jpg
-│   ├── history_tracking_interface.jpg
-│   └── settings_interface.jpg
+│   └── webcam_detection_interface.jpg
 ├── docs/
 │   └── VisionAI_Full_Report.pdf # Full project report
 └── README.md
@@ -125,9 +120,9 @@ VisionAI/
 
 ---
 
-## 🎥 Results & Interface Walkthrough
+## 🎥 Interface Preview
 
-VisionAI was validated across both the web platform and Android devices — all core features (image detection, live webcam detection, history tracking, and settings) function as expected.
+VisionAI was validated across both the web platform and Android devices — all core features (image detection, live webcam detection, history tracking, and settings) function as expected. Since the full app is live and interactive, only the two primary detection modes are previewed below; the rest (results, history, settings) can be explored directly in the running site.
 
 ### 1. Upload Image Interface
 Drag-and-drop or browse to submit a static image. Offers **Detect Objects** (single model), **Enhanced Detection** (multi-model), and **Reset**, with labeled bounding boxes and confidence scores.
@@ -143,30 +138,6 @@ Real-time, video-based detection using the device camera — **Start Webcam**, *
 <!-- 🖼️ IMAGE: Figure 4.2 — Webcam Detection Interface (Android App). Place at images/webcam_detection_interface.jpg -->
 <p align="center">
   <img src="images/webcam_detection_interface.jpg" alt="Webcam Detection Interface" width="320">
-</p>
-
-### 3. Detection Results Interface
-Shows objects detected, average confidence, and total processing time, with a per-object breakdown (label, confidence bar, model tag) and a **Save to History** action.
-
-<!-- 🖼️ IMAGE: Figure 4.3 — Detection Results Interface showing Performance Metrics and Detected Objects. Place at images/detection_results_interface.jpg -->
-<p align="center">
-  <img src="images/detection_results_interface.jpg" alt="Detection Results Interface" width="320">
-</p>
-
-### 4. History Tracking Interface
-A persistent log of saved detections — thumbnails, timestamps, object counts, average confidence, and a summary panel of total detections / most-detected object class.
-
-<!-- 🖼️ IMAGE: Figure 4.4 — History Tracking Interface with Detection Logs and Summary Statistics. Place at images/history_tracking_interface.jpg -->
-<p align="center">
-  <img src="images/history_tracking_interface.jpg" alt="History Tracking Interface" width="320">
-</p>
-
-### 5. Settings Interface
-Full control over detection behavior: confidence threshold slider, model selection dropdown, detection quality mode, bounding box/label toggles, voice announcements, multi-model detection, auto-save, and history limit.
-
-<!-- 🖼️ IMAGE: Figure 4.5 — Settings Interface with Detection and Display Configuration Options. Place at images/settings_interface.jpg -->
-<p align="center">
-  <img src="images/settings_interface.jpg" alt="Settings Interface" width="320">
 </p>
 
 ---
