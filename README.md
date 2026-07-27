@@ -13,7 +13,7 @@
 </tr>
 </table>
 
-<div align="center">
+
 
 **Lightweight, On-Device AI Object Detection powered by TensorFlow.js**
 
