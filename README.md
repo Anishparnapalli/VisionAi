@@ -1,10 +1,19 @@
-<div align="center">
-
-<!-- 🖼️ LOGO: VisionAI project logo/banner, shown at the top of the title section. Place at images/VisionAI_banner.jpg -->
-<img src="images/VisionAI_banner.jpg" alt="VisionAI Logo" width="180">
+<table>
+<tr>
+<td width="150">
+<!-- 🖼️ LOGO: VisionAI project logo, shown to the left of the title. Place at images/VisionAI_banner.jpg -->
+<img src="images/VisionAI_banner.jpg" alt="VisionAI Logo" width="130">
+</td>
+<td>
 
 # VisionAI
 ### Real-Time Object Detection — Web & Android
+
+</td>
+</tr>
+</table>
+
+<div align="center">
 
 **Lightweight, On-Device AI Object Detection powered by TensorFlow.js**
 
