@@ -22,7 +22,7 @@ Built with COCO-SSD · MobileNet · TensorFlow.js · Android WebView
 [![Made with JavaScript](https://img.shields.io/badge/Made%20with-JavaScript-F7DF1E?logo=javascript&logoColor=black)](#)
 [![TensorFlow.js](https://img.shields.io/badge/AI-TensorFlow.js-FF6F00?logo=tensorflow&logoColor=white)](https://www.tensorflow.org/js)
 [![Android](https://img.shields.io/badge/Platform-Android-3DDC84?logo=android&logoColor=white)](#)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](#license)
+
 
 </div>
 
@@ -199,4 +199,4 @@ Developed under the guidance of **Dr. S. Karthick**, Department of Computational
 
 ## 📄 License
 
-This project is open-sourced for educational use. Add your preferred license (e.g., MIT) here.
+This project is open-sourced for educational use. 
